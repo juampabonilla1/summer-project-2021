@@ -25,9 +25,9 @@ python src/simulation_starter.py p=0.15 L=6 N=100 bias=0.5
 
 ### Matching libraries
 
-In order to perform minimum weight perfect matching, the bottleneck task, using an optimised program, install [qecsim](https://qecsim.github.io/).
+In order to perform minimum weight perfect matching (the bottleneck task) using an optimised program, install [qecsim](https://qecsim.github.io/).
 
-Them, comment the following lines in [src/graph_functions.py](src/graph_functions.py):
+After a successful installation, comment out the following lines in [src/graph_functions.py](src/graph_functions.py):
 
 ```python
 import networkx as nx
