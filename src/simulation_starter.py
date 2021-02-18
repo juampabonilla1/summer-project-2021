@@ -82,7 +82,6 @@ def test(p, bias, size, N):
         #    print('Check this one out!')
         #    return
 
-    """
     print([{"code: Rotated square XZ " + str(size) + "x" + str(size),
             "decoder: Rotated square XZ MWPM",
             "error_model: Biased noise toward dephasing",
@@ -93,8 +92,8 @@ def test(p, bias, size, N):
             "n_run: " + str(N),
             "n_fail: " + str(total_fail),
             "wall_time: " + str(time.time() - start_time)}])
-    """
-    print(bias, size, p, total_fail, N, time.time() - start_time)
+
+    # print(bias, size, p, total_fail, N, time.time() - start_time)
 
 
 def start():
